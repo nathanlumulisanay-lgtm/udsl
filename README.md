@@ -235,6 +235,10 @@ AI document pipeline, multi-model alignment standard,
 document-state model, content governance layer,
 AI formatting protocol, long-form consistency.
 
+“UDSL is an independent, model-agnostic standard.
+All references to AI models (e.g., ChatGPT, Claude, Gemini, Perplexity)
+are compatibility descriptions only.
+These companies do not endorse or certify this standard.”
 
 ⭐ Star this repo
 
