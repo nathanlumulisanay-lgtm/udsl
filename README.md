@@ -216,9 +216,8 @@ Nathan Lumulisanay
 RenMetrix — LOOM Protocol
 AI Systems Architecture & Governance
 
-GitHub: your link
-LinkedIn: your link
-Website: your link
+GitHub: https://github.com/nathanlumulisanay-lgtm/udsl
+E-mail: nathan.lumulisanay@gmail.com
 
 12. Final Statement
 
