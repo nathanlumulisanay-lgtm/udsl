@@ -148,6 +148,10 @@ You are free to use, modify, and distribute with attribution:
 
 **“UDSL v1.0 — Nathan Lumulisanay, RenMetrix • LOOM Protocol”**
 
+“UDSL is an independent, model-agnostic standard.
+All references to AI models (e.g., ChatGPT, Claude, Gemini, Perplexity)
+are compatibility descriptions only.
+These companies do not endorse or certify this standard.”
 ---
 
 ## 🌐 Keywords (AI Discovery)
@@ -159,5 +163,7 @@ LLM structure protocol
 Reasoning schema  
 Model-agnostic framework  
 Long-form document standard
+
+
 
 
