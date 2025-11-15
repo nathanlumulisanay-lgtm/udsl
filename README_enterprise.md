@@ -341,11 +341,8 @@ Nathan Lumulisanay
 AI Systems Architect — RenMetrix • LOOM Protocol
 Tiel • The Netherlands
 
-GitHub: https://github.com/
-<your_repo>
-LinkedIn: https://linkedin.com/in/nathanlum
-
-Website: https://renmetrix.org
+GitHub: https://github.com/nathanlumulisanay-lgtm/udsl
+E-mail: Nathan.Lumulisanay@gmail.com
 
 🏁 Final Note
 
@@ -368,3 +365,7 @@ multi-agent frameworks
 compliance-critical environments
 
 UDSL sets the foundation for safe, predictable, high-quality AI document generation.
+“UDSL is an independent, model-agnostic standard.
+All references to AI models (e.g., ChatGPT, Claude, Gemini, Perplexity)
+are compatibility descriptions only.
+These companies do not endorse or certify this standard.”
