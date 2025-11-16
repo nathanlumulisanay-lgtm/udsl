@@ -1,0 +1,25 @@
+{
+  "model": "ChatGPT",
+  "version": "v1.0",
+  "compatibility": "UDSL v1.0",
+  "instructions": {
+    "enforce_structure": true,
+    "enforce_reasoning": true,
+    "enforce_tone": true,
+    "enforce_ux": true
+  },
+  "mapping": {
+    "structure_source": "definitions/structure.yaml",
+    "reasoning_source": "definitions/reasoning_modes.yaml",
+    "tone_source": "definitions/tone_profiles.yaml",
+    "ux_source": "definitions/ux_rules.yaml",
+    "terminology_source": "definitions/terminology.md"
+  },
+  "llm_parameters": {
+    "temperature": 0.2,
+    "max_tokens": 2400,
+    "format": "markdown",
+    "strict_mode": true
+  },
+  "notes": "ChatGPT performs best with explicit role instructions and repeated reminders to not invent structure."
+}

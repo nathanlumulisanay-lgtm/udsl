@@ -1,0 +1,52 @@
+# Reasoning Modes (UDSL v1.1)
+# Defines logical and rhetorical models used for structured document reasoning.
+
+toulmin:
+  description: >
+    Structured argumentation linking claim, data, warrant, backing, qualifier,
+    and rebuttal. Used for evidence-driven persuasion and policy justification.
+  use_cases: ["policy_memo", "research_paper", "strategic_brief"]
+  expected_sections: ["introduction", "evidence", "analysis", "recommendations"]
+  tone_alignment: ["formal_concise", "neutral_analytical"]
+  validation_rules:
+    require_warrant: true
+    include_rebuttal: true
+    qualifier_allowed: true
+  weight: 0.85
+
+deductive:
+  description: >
+    Logical progression from general principles to specific conclusions.
+    Prioritizes coherence, validity, and structured reasoning chains.
+  use_cases: ["technical_report", "audit", "methodology_appendix"]
+  expected_sections: ["premises", "logic_chain", "conclusion"]
+  tone_alignment: ["formal_concise"]
+  validation_rules:
+    require_conclusion: true
+    max_premises: 5
+  weight: 0.80
+
+inductive:
+  description: >
+    Pattern recognition from data, cases, or trends toward generalizable insight.
+    Used for evaluations, learning studies, and trend analysis.
+  use_cases: ["evaluation", "trend_analysis", "impact_study"]
+  expected_sections: ["dataset", "observations", "pattern", "generalization"]
+  tone_alignment: ["neutral_analytical"]
+  validation_rules:
+    min_cases: 3
+    data_reference_required: true
+  weight: 0.65
+
+reflective:
+  description: >
+    Meta-cognitive reasoning integrating observation, interpretation, and reflection.
+    Encourages self-awareness and governance learning.
+  use_cases: ["governance_report", "learning_review", "strategy_note"]
+  expected_sections: ["context", "insights", "implications"]
+  tone_alignment: ["empathetic_clear", "neutral_analytical"]
+  validation_rules:
+    allow_first_person: true
+    reflection_depth: ">=2"
+  weight: 0.70
+

@@ -1,0 +1,27 @@
+# SHA256 Checksums — UDSL v1.0
+# Generated for reference only. Actual release checksums are produced by CI.
+
+definitions/structure.yaml                      d41d8cd98f00b204e9800998ecf8427e
+definitions/structure_matrix.yaml               d41d8cd98f00b204e9800998ecf8427e
+definitions/reasoning_modes.yaml                d41d8cd98f00b204e9800998ecf8427e
+definitions/tone_profiles.yaml                  d41d8cd98f00b204e9800998ecf8427e
+definitions/ux_rules.yaml                       d41d8cd98f00b204e9800998ecf8427e
+definitions/terminology.md                      d41d8cd98f00b204e9800998ecf8427e
+
+validator/scoring_model.yaml                    d41d8cd98f00b204e9800998ecf8427e
+validator/compliance_schema.json                d41d8cd98f00b204e9800998ecf8427e
+validator/cli/udsl_validate.py                  d41d8cd98f00b204e9800998ecf8427e
+
+examples/policy_memo/policy_memo_udsl_example.md  d41d8cd98f00b204e9800998ecf8427e
+examples/technical_report/technical_report_udsl_example.md d41d8cd98f00b204e9800998ecf8427e
+examples/business_report/business_report_udsl_example.md   d41d8cd98f00b204e9800998ecf8427e
+
+integration/ChatGPT_profile.json               d41d8cd98f00b204e9800998ecf8427e
+integration/Claude_profile.json                d41d8cd98f00b204e9800998ecf8427e
+integration/Gemini_profile.json                d41d8cd98f00b204e9800998ecf8427e
+integration/Perplexity_profile.json            d41d8cd98f00b204e9800998ecf8427e
+
+LICENSE                                         d41d8cd98f00b204e9800998ecf8427e
+README.md                                       d41d8cd98f00b204e9800998ecf8427e
+
+# End of file

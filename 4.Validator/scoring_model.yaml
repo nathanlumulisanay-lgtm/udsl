@@ -1,0 +1,37 @@
+version: "1.0"
+component_weights:
+  structure: 0.30
+  reasoning: 0.25
+  tone: 0.15
+  ux: 0.15
+  terminology: 0.15
+
+structure_rules:
+  missing_section_penalty: 8
+  wrong_order_penalty: 5
+  unexpected_section_penalty: 3
+
+reasoning_rules:
+  missing_claim_penalty: 10
+  missing_warrant_penalty: 10
+  missing_backing_penalty: 5
+  unsupported_claim_penalty: 5
+
+tone_rules:
+  tone_drift_penalty: 5
+  informality_penalty: 4
+  inconsistency_penalty: 4
+
+ux_rules:
+  long_paragraph_penalty: 3
+  scannability_penalty: 5
+  unclear_headings_penalty: 3
+
+terminology_rules:
+  unapproved_term_penalty: 4
+  inconsistency_penalty: 4
+
+scoring_output:
+  max_score: 100
+  pass_threshold: 70
+  fail_threshold: 40

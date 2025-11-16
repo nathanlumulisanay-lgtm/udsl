@@ -1,0 +1,62 @@
+# Structure Matrix (Legacy Compatibility Layer — UDSL v1.0)
+# Dit bestand blijft bestaan voor backward-compatibility.
+# Nieuwe implementaties gebruiken structure.yaml (enterprise version).
+
+version: "1.0"
+layer_type: "legacy_structure_matrix"
+status: "maintained"
+purpose: |
+  De Structure Matrix Layer definieert de minimale documentbouwstenen
+  waarmee oudere UDSL-implementaties consistent kunnen blijven werken.
+  Deze laag blijft bestaan voor modellen of applicaties die vereenvoudigde
+  documentstructuren nodig hebben.
+
+document_types:
+  - business_report
+  - policy_memo
+  - technical_document
+  - ux_spec
+  - educational_module
+
+core_sections:
+  introduction:
+    description: "Opent het document met doel, context en scope."
+    required: true
+
+  problem_statement:
+    description: "Definieert het centrale probleem of onderwerp."
+    required: true
+
+  analysis:
+    description: "Bevat gegevens, argumentatie en bewijsmateriaal."
+    required: true
+
+  recommendations:
+    description: "Concrete adviezen en besluitvoorstellen."
+    required: false
+
+  conclusion:
+    description: "Samenvatting + restatement van belangrijkste inzichten."
+    required: true
+
+compatibility_notes:
+  - "structure_matrix.yaml is behouden als legacy interface."
+  - "Nieuwe documentstructuren worden volledig gedefinieerd in structure.yaml."
+  - "Integraties mogen deze matrix gebruiken bij beperkte documenttypes."
+  - "Volledige reasoning-layer is niet inbegrepen; gebruik reasoning_modes.yaml."
+
+mapping_to_enterprise_structure:
+  introduction: "section:overview"
+  problem_statement: "section:problem_definition"
+  analysis: "section:detailed_analysis"
+  recommendations: "section:recommended_actions"
+  conclusion: "section:summary"
+
+deprecation_policy:
+  state: "active"
+  planned_removal: "none"
+  notes: |
+    Deze layer blijft onderdeel van UDSL v1.x zolang er applicaties bestaan
+    die vereenvoudigde structuren gebruiken. Er is geen geplande removal.
+
+

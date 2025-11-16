@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "required_fields": {
+    "doc_type": "string",
+    "tone_profile": "string",
+    "reasoning_mode": "string",
+    "audience": "string",
+    "sections": "array"
+  },
+  "section_structure": {
+    "policy_memo": [
+      "Executive Summary",
+      "Background",
+      "Analysis",
+      "Recommendation",
+      "Implementation"
+    ]
+  },
+  "reasoning_requirements": {
+    "toulmin": [
+      "claim",
+      "grounds",
+      "warrant",
+      "backing",
+      "qualifier",
+      "rebuttal"
+    ]
+  }
+}

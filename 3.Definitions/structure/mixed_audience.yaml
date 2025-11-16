@@ -1,0 +1,62 @@
+# UDSL – Mixed Audience Structure v1.0
+
+document_template: mixed_audience
+
+sections:
+  - id: shared_intro
+    title: "Shared Introduction"
+    intent: "align_audiences"
+    min_length: 150
+    max_length: 250
+    tone: "neutral"
+    reasoning: "deductive"
+    required_elements:
+      - context
+      - problem
+      - relevance
+
+  - id: high_level_view
+    title: "High-Level Explanation"
+    intent: "non_technical_view"
+    min_length: 150
+    max_length: 300
+    tone: "simple"
+    reasoning: "inductive"
+    required_elements:
+      - overview
+      - analogy
+
+  - id: expert_detail
+    title: "Expert Detail"
+    intent: "deep_dive"
+    min_length: 250
+    max_length: 500
+    tone: "technical"
+    reasoning: "deductive"
+    required_elements:
+      - mechanisms
+      - data
+      - assumptions
+
+  - id: bridging_section
+    title: "Bridge Between Audiences"
+    intent: "reconcile_views"
+    min_length: 150
+    max_length: 300
+    tone: "neutral"
+    reasoning: "scenario"
+    required_elements:
+      - mapping
+      - clarifications
+
+  - id: unified_conclusion
+    title: "Unified Conclusion"
+    intent: "connect_everyone"
+    min_length: 120
+    max_length: 220
+    tone: "formal"
+    reasoning: "deductive"
+    required_elements:
+      - conclusion
+      - shared_call_to_action
+

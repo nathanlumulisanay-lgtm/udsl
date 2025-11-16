@@ -1,0 +1,25 @@
+{
+  "model": "Claude",
+  "version": "v1.0",
+  "compatibility": "UDSL v1.0",
+  "instructions": {
+    "enforce_structure": true,
+    "enforce_reasoning": true,
+    "enforce_tone": true,
+    "enforce_ux": true
+  },
+  "mapping": {
+    "structure_source": "definitions/structure.yaml",
+    "reasoning_source": "definitions/reasoning_modes.yaml",
+    "tone_source": "definitions/tone_profiles.yaml",
+    "ux_source": "definitions/ux_rules.yaml",
+    "terminology_source": "definitions/terminology.md"
+  },
+  "llm_parameters": {
+    "temperature": 0.15,
+    "max_tokens": 3000,
+    "format": "markdown",
+    "strict_mode": true
+  },
+  "notes": "Claude is highly compliant with long-form structure but may over-elaborate without tone constraints."
+}

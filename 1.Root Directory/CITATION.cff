@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+type: software
+message: >
+  If you use UDSL (Universal Document Structure Layer) in your research,
+  software, or documentation, please cite this release.
+
+title: "UDSL v1.0 — Universal Document Structure Layer"
+abstract: >
+  UDSL (Universal Document Structure Layer) is a model-agnostic standard
+  that enforces consistent document structure, reasoning schemas, tone routing,
+  UX constraints, and terminology rules across AI-generated long-form content.
+  It provides a canonical architecture for generating predictable, auditable,
+  multi-model-stable documents using large language models.
+
+authors:
+  - family-names: Lumulisanay
+    given-names: Nathan
+    affiliation: "RenMetrix — LOOM Protocol"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # <-- You may replace or remove
+
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.TBD"  # Placeholder until Zenodo DOI is created
+
+repository-code: "https://github.com/nathanlumulisanay-lgtm/udsl"  
+version: "1.0.0"
+date-released: "2025-11-16"
+
+keywords:
+  - UDSL
+  - document structure
+  - AI governance
+  - reasoning schemas
+  - tone routing
+  - UX writing
+  - terminology layer
+  - LLM interoperability
+  - model-agnostic standards
+  - RenMetrix
+  - LOOM Protocol
+
+license: "CC-BY-4.0"
+
+preferred-citation:
+  type: article
+  title: "UDSL — Universal Document Structure Layer (v1.0)"
+  authors:
+    - family-names: Lumulisanay
+      given-names: Nathan
+  journal: "RenMetrix — LOOM Protocol (Technical Standard Series)"
+  year: 2025
+  publisher: "RenMetrix Institute"
+  notes: "Canonical citation for UDSL v1.0."

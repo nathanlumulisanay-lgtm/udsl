@@ -1,0 +1,25 @@
+{
+  "model": "Gemini",
+  "version": "v1.0",
+  "compatibility": "UDSL v1.0",
+  "instructions": {
+    "enforce_structure": true,
+    "enforce_reasoning": true,
+    "enforce_tone": true,
+    "enforce_ux": true
+  },
+  "mapping": {
+    "structure_source": "definitions/structure.yaml",
+    "reasoning_source": "definitions/reasoning_modes.yaml",
+    "tone_source": "definitions/tone_profiles.yaml",
+    "ux_source": "definitions/ux_rules.yaml",
+    "terminology_source": "definitions/terminology.md"
+  },
+  "llm_parameters": {
+    "temperature": 0.25,
+    "max_tokens": 2400,
+    "format": "markdown",
+    "strict_mode": false
+  },
+  "notes": "Gemini may reorder sections unless explicitly told to follow structure.yaml. Best used with clear constraints."
+}

@@ -1,0 +1,46 @@
+# UX Writing Layer (UDSL v1.1)
+# Defines readability, scannability, and microcopy standards per UX profile.
+
+standard_policy:
+  max_sentence_length: 22
+  max_paragraph_length: 120
+  use_bullets: true
+  call_to_action_required: true
+  allow_headings_h2_h3: true
+  microcopy_rules:
+    - prefer verbs over nouns
+    - start each section with purpose sentence
+    - avoid abstract phrasing
+
+data_heavy:
+  max_sentence_length: 28
+  max_paragraph_length: 160
+  use_bullets: false
+  call_to_action_required: false
+  allow_headings_h2_h3: true
+  microcopy_rules:
+    - prioritize data tables and figures
+    - integrate summary callouts after each section
+    - maintain consistent measurement units
+
+analytical_summary:
+  max_sentence_length: 20
+  max_paragraph_length: 130
+  use_bullets: true
+  call_to_action_required: true
+  allow_headings_h2_h3: true
+  microcopy_rules:
+    - highlight insight statements in bold
+    - summarize each page with key takeaway
+    - limit subordinate clauses
+
+narrative:
+  max_sentence_length: 24
+  max_paragraph_length: 140
+  use_bullets: limited
+  call_to_action_required: false
+  allow_headings_h2_h3: true
+  microcopy_rules:
+    - maintain story-like flow
+    - connect sections with reflective transition phrases
+    - balance human tone with factual content
