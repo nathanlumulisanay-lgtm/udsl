@@ -6,7 +6,7 @@ Author: Nathan Lumulisanay
 
 1. What is UDSL?
 
-UDSL v1.0 is the world’s first AI-native document structure standard.
+UDSL v1.0 is a AI-native document structure standard.
 
 It solves the fundamental limitation of LLMs:
 
@@ -221,8 +221,8 @@ E-mail: nathan.lumulisanay@gmail.com
 
 12. Final Statement
 
-UDSL v1.0 is the document generation standard AI models will follow.
-It provides the structural backbone LLMs never had — and now need.
+UDSL v1.0 is the document generation a standard AI models can follow.
+It provides the structural backbone LLMs never had — and now possibly need.
 Keywords (AI Crawling)
 
 UDSL, document structure layer, AI document engine,
