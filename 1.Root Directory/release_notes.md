@@ -7,7 +7,7 @@ Standard: Universal Document Structure Layer (UDSL)
 ---
 
 ## 🚀 Summary
-UDSL v1.0 is the world’s first AI-native, model-agnostic document structure standard.  
+UDSL v1.0 is an AI-native, model-agnostic document structure standard.  
 It defines a canonical set of rules, layers, and validation procedures that ensure LLM-generated documents are:
 
 - structurally consistent  
@@ -97,5 +97,6 @@ Attribution required:
 
 ## 🌐 Notes
 This version is intended for broad public adoption, academic referencing, cross-model compatibility research, and integration within SaaS/LangChain/enterprise pipelines.
+
 
 
