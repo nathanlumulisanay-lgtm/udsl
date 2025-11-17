@@ -1,12 +1,12 @@
 UDSL — Universal Document Structure Layer (v1.0)
-The world’s first AI-native document structure standard
 
 RenMetrix • LOOM Protocol
 Author: Nathan Lumulisanay
 
 🌐 What is UDSL?
 
-UDSL (Universal Document Structure Layer) is the first model-agnostic standard that ensures all AI systems generate:
+UDSL v1.0 — Universal Document Structure Layer
+A model-agnostic document architecture for consistent, explainable long-form AI output.
 
 consistent
 
