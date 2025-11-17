@@ -1,7 +1,7 @@
 # 🤝 Contributing to UDSL (Universal Document Structure Layer)
 
 Thank you for your interest in contributing to **UDSL v1.0** —  
-the world’s first model-agnostic document structure standard for AI.
+a model-agnostic document structure standard for AI.
 
 UDSL is maintained as part of the **RenMetrix — LOOM Protocol**  
 and aims to be an open, transparent, auditable standard for  
@@ -212,5 +212,6 @@ For proposals, enterprise integration or research collaborations:
 Thank you for considering a contribution to UDSL.
 
 Created and maintained by Nathan Lumulisanay.
+
 
 
