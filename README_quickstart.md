@@ -8,7 +8,7 @@ Author: Nathan Lumulisanay
 
 ## 🚀 What is UDSL?
 
-UDSL (Universal Document Structure Layer) is an AI-native document architecture that enables Large Language Models (LLMs) to generate structured, hierarchical, and consistent long-form documents.
+UDSL (Universal Document Structure Layer) is a AI-native document architecture that enables Large Language Models (LLMs) to generate structured, hierarchical, and consistent long-form documents.
 
 LLMs generate tokens — not documents.  
 UDSL provides the missing layer:
