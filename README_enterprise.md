@@ -1,5 +1,4 @@
 UDSL v1.0 — Universal Document Structure Layer
-The enterprise standard for AI-generated documents
 
 RenMetrix • LOOM Protocol
 Author: Nathan Lumulisanay
@@ -346,7 +345,7 @@ E-mail: Nathan.Lumulisanay@gmail.com
 
 🏁 Final Note
 
-UDSL v1.0 is the first open, model-agnostic standard designed to stabilize, structure, and audit AI-generated long-form documents.
+UDSL v1.0 is a open, model-agnostic standard designed to stabilize, structure, and audit AI-generated long-form documents.
 
 It is built for:
 
