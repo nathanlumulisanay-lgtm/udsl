@@ -8,7 +8,7 @@ License: **CC BY 4.0**
 ---
 
 ## 🚀 Overview
-UDSL v1.0 is the first public, model-agnostic standard for structured, validated AI-generated documents.  
+UDSL v1.0 is an model-agnostic standard for structured, validated AI-generated documents.  
 It defines a unified and predictable way for LLMs to generate long-form content with:
 
 - stable document structure  
@@ -98,4 +98,5 @@ UDSL v1.0 includes a ready-to-use GitHub Actions workflow for:
 
 ## 🔐 Integrity
 All files in this release have SHA-256 checksums included in:
+
 
